@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Samim;
+    src: url(./Samim.ttf) format("trueType");
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Samim;
+}
+.con_timer{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(246, 212, 255);
+    border-radius: 5px;
+    margin: 5px;
+}
+.timer{
+    background-color: rgb(138, 43, 226);
+    height: 10px;
+    width: 0;
+    border-radius: 5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgb(196, 194, 194);
+    margin: 5px;
+}
+.image{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgb(196, 194, 194);
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+main{
+    border: 1px solid rgb(206, 206, 206);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.name{
+    text-align: center;
+}
